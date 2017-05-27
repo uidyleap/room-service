@@ -9,7 +9,7 @@ import (
 )
 
 var RedisClient *redis.Client
-var RedisAddress string = "localhost:6379"
+var RedisAddress string = "10.128.0.2:6379"
 var RedisPassword string = ""
 var PubSubChannel *redis.PubSub = nil
 
