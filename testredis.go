@@ -20,7 +20,7 @@ func InitRedisClient() {
 		DB:       0,             // use default DB
 	})
 
-	pong, err := RedisClient.Ping().Result()
+	fmt.Println( RedisClient.Ping().Result() )
 
 }
 
